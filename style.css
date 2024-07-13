@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #081b29;
+}
+
+.home{
+    display: flex;
+    background-color: #081b29;
+}
+
+.home .text-paragraph{
+    height: 510px;
+    width: 50%;
+    text-align: center;
+    margin-top: 400px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.home .img{
+    height: 874px;
+    width: 50%;
+    display: flex;
+
+}
+
+.about{
+    height: 874px;
+    text-align: center;
+    padding: 80px 400px;
+}
+
+.about img{
+    margin: 70px 0px;
+    height: 400px;
+}
+
+.about h1{
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Education{
+    padding: 140px 100px;
+    height: 840px;
+    margin: 100px 0px;
+}
+
+.skills{
+    padding: 270px 100px;
+    height: 840px;
+    margin: 200px 0px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+
+.wats{
+    height: 600px;
+    width: 100%;
+    border-radius: 24px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-box .input-field input{
+    height: 30px;
+    margin: 10px;
+    border: 2px solid  #081b29;
+    border-radius: 16px;
+}
+
+.footer{
+    height: 30px;
+    width: 100%;
+    background-color: #081b29;
+    text-align: center;
+    
+}
+
+.footer-text p{
+    color: white;
+}
